@@ -22,8 +22,7 @@ console.log(myFirstJob);
 */
 
 // Boolean
-
-
+/*
 let javaScriptIsFun = true;
 console.log(javaScriptIsFun);
 
@@ -42,4 +41,10 @@ console.log(typeof school);
 
 school = 1997;
 console.log(typeof school);
+*/
 
+ let age = 30;
+ age = 31;
+
+ const birthYear = 1991;
+ birthYear = 2000;
