@@ -83,6 +83,8 @@ const isFullAge = ageMiya >= 30;
 console.log(now - 1997 > now - 1999);
 */
 
+
+/*
 const now = 2023;
 const ageBarniee = now - 1997;
 const ageMiya = now - 1999;
@@ -97,3 +99,54 @@ console.log(x, y);
 
 const averageAge = (ageBarniee + ageMiya) / 2
 console.log(ageBarniee, ageMiya, averageAge);
+*/
+
+
+//Strings
+/*
+const firstName = "Barnabas";
+const job = "Engineer";
+const birthYear = 1997;
+const year = 2023;
+
+const barniee = "I'm " + firstName + ", a " + (year - birthYear) + "years old " + job + "!";
+
+console.log(barniee);
+
+const barnieeNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(barnieeNew);
+
+console.log(`bitches dey this world mehnnn`);
+
+console.log("string with \n\
+multiple \n\
+lines");
+
+console.log(`strings
+with
+multi-lines`)
+*/
+
+
+//to check drivers license age
+const age = 30;
+
+if (age >= 18) {
+    console.log("Miya can start her driving license classes🚗");
+} else {
+    yearsLeft = 18 - age;
+    console.log(`Miya is too young. wait another ${yearsLeft} years kiddo 😛`);
+}
+
+
+
+const birthYear = 2022;
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+
+console.log(century);
