@@ -129,6 +129,7 @@ multi-lines`)
 
 
 //to check drivers license age
+/*
 const age = 30;
 
 if (age >= 18) {
@@ -150,3 +151,75 @@ if (birthYear <= 2000) {
 }
 
 console.log(century);
+*/
+
+//type conversion 
+/*
+const inputYear = "1997";
+console.log(Number(inputYear) + 26);
+console.log(inputYear + 26);
+
+console.log(Number("Barniee"));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//type coercion
+console.log("I am "+ 23 + " years old" );
+
+console.log("23" - "10" - 3);
+
+console.log("23" * "2");
+
+console.log("23" / "2");
+
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n);
+*/
+
+//Truthy and falsy values
+/*
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Barniee"));
+console.log(Boolean(""));
+console.log(Boolean({}));
+
+const money = 10;
+if (money) {
+    console.log("Don't spend it all!");
+} else {
+    console.log("Go get a job amigo");
+}
+
+let height = 123;
+if (height) {
+    console.log("YAY! Height is defined");
+} else {
+    console.log("Height is UNDEFINED");
+}
+*/
+
+//Equality operators
+/*
+const age = "18";
+if (age === 18) console.log("You just became an adult(strict)");
+
+if (age == 18) console.log("You just became an adult(loose)");
+*/
+
+const favourite = Number (prompt("What is your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 23) { // 23 === 23
+    console.log("Cool! 23 is an amazing number!")
+} else if (favourite === 7) {
+    console.log("7 is an amazing number!")
+} else if (favourite === 9) {
+    console.log("9 is an amazing number!")
+} else {
+    console.log("Number isn't 23, 7, or 9.")
+}
