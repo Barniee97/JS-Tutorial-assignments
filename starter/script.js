@@ -208,7 +208,7 @@ const age = "18";
 if (age === 18) console.log("You just became an adult(strict)");
 
 if (age == 18) console.log("You just became an adult(loose)");
-*/
+
 
 const favourite = Number (prompt("What is your favourite number?"));
 console.log(favourite);
@@ -223,3 +223,30 @@ if (favourite === 23) { // 23 === 23
 } else {
     console.log("Number isn't 23, 7, or 9.")
 }
+
+if (favourite !== 23) console.log("why not 23?");
+
+*/
+
+ const hasDriversLicense = true; // A
+ const hasGoodVision = true; // B
+
+
+ console.log(hasDriversLicense && hasGoodVision);
+ console.log(hasDriversLicense || hasGoodVision);
+ console.log(!hasDriversLicense);
+
+//  if (hasDriversLicense && hasGoodVision) {
+//     console.log("Sarah should drive");
+//  } else {
+//     console.log("Someone else should drive");
+//  }
+
+ const isTired = false; // C
+ console.log(hasDriversLicense && hasGoodVision && isTired);
+
+  if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log("Sarah should drive");
+ } else {
+    console.log("Someone else should drive...");
+ }
