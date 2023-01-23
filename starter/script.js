@@ -228,13 +228,13 @@ if (favourite !== 23) console.log("why not 23?");
 
 */
 
- const hasDriversLicense = true; // A
- const hasGoodVision = true; // B
+//  const hasDriversLicense = true; // A
+//  const hasGoodVision = true; // B
 
 
- console.log(hasDriversLicense && hasGoodVision);
- console.log(hasDriversLicense || hasGoodVision);
- console.log(!hasDriversLicense);
+//  console.log(hasDriversLicense && hasGoodVision);
+//  console.log(hasDriversLicense || hasGoodVision);
+//  console.log(!hasDriversLicense);
 
 //  if (hasDriversLicense && hasGoodVision) {
 //     console.log("Sarah should drive");
@@ -242,11 +242,118 @@ if (favourite !== 23) console.log("why not 23?");
 //     console.log("Someone else should drive");
 //  }
 
- const isTired = false; // C
- console.log(hasDriversLicense && hasGoodVision && isTired);
+//  const isTired = false; // C
+//  console.log(hasDriversLicense && hasGoodVision && isTired);
 
-  if (hasDriversLicense && hasGoodVision && !isTired) {
-    console.log("Sarah should drive");
- } else {
-    console.log("Someone else should drive...");
- }
+//   if (hasDriversLicense && hasGoodVision && !isTired) {
+//     console.log("Sarah should drive");
+//  } else {
+//     console.log("Someone else should drive...");
+//  }
+
+
+//coding challenge
+
+//test data 1
+// Dolphins: 96, 108, 89
+// koalas: 88, 91, 110
+
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas) {
+//     console.log("Dolphins win");
+// } else if (scoreKoalas > scoreDolphins) {
+//     console.log("Koalas win");
+// } else {
+//     console.log("Both team win");
+// }
+
+
+
+//test bonus 1
+// Dolphins: 97, 112, 101
+// koalas: 109, 95, 123
+
+// const scoreDolphins = (97 + 112 + 101) / 3;
+// const scoreKoalas = (109 + 95 + 123) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//     console.log("Dolphins win");
+// } else if (scoreKoalas > scoreDolphins && scoreDolphins >= 100) {
+//     console.log("Koalas win");
+// } else {
+//     console.log("Both team win");
+// }
+
+
+//test bonus 2
+// Dolphins: 97, 112, 101
+// koalas: 109, 95, 106
+
+// const scoreDolphins = (97 + 112 + 101) / 3;
+// const scoreKoalas = (109 + 95 + 106) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//     console.log("Dolphins win");
+// } else if (scoreKoalas > scoreDolphins && scoreDolphins >= 100) {
+//     console.log("Koalas win");
+// } else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+//     console.log("Both teams win the trophy");
+// } else {
+//     console.log("There's no winner");
+// }
+
+//switch statement
+
+const day = "thursday";
+
+switch(day) {
+    case "monday":
+        console.log("Bible study");
+        console.log("Talk to Chioma after service");
+        break;
+    case "tuesday":
+        console.log("Gym day bruuuuh");
+        console.log("To the laundy MR.");
+        break;
+    case "wednesday":
+        console.log("order small chops mounaChops");
+        break;
+    case "thursday":
+    case "friday":
+        console.log("celebrate the weeekend in addy");
+        console.log("call rexxie for the weekend grovie");
+        break;
+    case "saturday":
+        console.log("choir practice");
+        break;
+    case "sunday":
+        console.log("The day of the Lord");
+        break;
+    default:
+        console.log("Not a valid date");
+}
+
+
+if (day === "monday") {
+    console.log("Bible study");
+    console.log("Talk to Chioma after service");
+} else if (day === "tuesday") {
+    console.log("Gym day bruuuuh");
+    console.log("To the laundy MR.");
+} else if (day === "wednesday") {
+    console.log("order small chops mounaChops");
+} else if (day === "thursday" || day === "friday") {
+    console.log("celebrate the weeekend in addy");
+    console.log("call rexxie for the weekend grovie");
+} else if (day === "saturday") {
+    console.log("choir practice");
+} else if (day === "sunday") {
+    console.log("The day of the Lord");
+} else {
+    console.log("Not a valid date")
+}
