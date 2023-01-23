@@ -309,51 +309,69 @@ if (favourite !== 23) console.log("why not 23?");
 
 //switch statement
 
-const day = "thursday";
+// const day = "thursday";
 
-switch(day) {
-    case "monday":
-        console.log("Bible study");
-        console.log("Talk to Chioma after service");
-        break;
-    case "tuesday":
-        console.log("Gym day bruuuuh");
-        console.log("To the laundy MR.");
-        break;
-    case "wednesday":
-        console.log("order small chops mounaChops");
-        break;
-    case "thursday":
-    case "friday":
-        console.log("celebrate the weeekend in addy");
-        console.log("call rexxie for the weekend grovie");
-        break;
-    case "saturday":
-        console.log("choir practice");
-        break;
-    case "sunday":
-        console.log("The day of the Lord");
-        break;
-    default:
-        console.log("Not a valid date");
-}
+// switch(day) {
+//     case "monday":
+//         console.log("Bible study");
+//         console.log("Talk to Chioma after service");
+//         break;
+//     case "tuesday":
+//         console.log("Gym day bruuuuh");
+//         console.log("To the laundy MR.");
+//         break;
+//     case "wednesday":
+//         console.log("order small chops mounaChops");
+//         break;
+//     case "thursday":
+//     case "friday":
+//         console.log("celebrate the weeekend in addy");
+//         console.log("call rexxie for the weekend grovie");
+//         break;
+//     case "saturday":
+//         console.log("choir practice");
+//         break;
+//     case "sunday":
+//         console.log("The day of the Lord");
+//         break;
+//     default:
+//         console.log("Not a valid date");
+// }
 
+// //if else statement
 
-if (day === "monday") {
-    console.log("Bible study");
-    console.log("Talk to Chioma after service");
-} else if (day === "tuesday") {
-    console.log("Gym day bruuuuh");
-    console.log("To the laundy MR.");
-} else if (day === "wednesday") {
-    console.log("order small chops mounaChops");
-} else if (day === "thursday" || day === "friday") {
-    console.log("celebrate the weeekend in addy");
-    console.log("call rexxie for the weekend grovie");
-} else if (day === "saturday") {
-    console.log("choir practice");
-} else if (day === "sunday") {
-    console.log("The day of the Lord");
+// if (day === "monday") {
+//     console.log("Bible study");
+//     console.log("Talk to Chioma after service");
+// } else if (day === "tuesday") {
+//     console.log("Gym day bruuuuh");
+//     console.log("To the laundy MR.");
+// } else if (day === "wednesday") {
+//     console.log("order small chops mounaChops");
+// } else if (day === "thursday" || day === "friday") {
+//     console.log("celebrate the weeekend in addy");
+//     console.log("call rexxie for the weekend grovie");
+// } else if (day === "saturday") {
+//     console.log("choir practice");
+// } else if (day === "sunday") {
+//     console.log("The day of the Lord");
+// } else {
+//     console.log("Not a valid date");
+// }
+
+//The conditional (ternary) operator
+
+const age = 20;
+age >= 18 ? console.log("I like to drink wine") :
+        console.log("I like to drink water");
+
+const drink = age >= 18 ? "wine" : "water";
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+    drink2 = "wine";
 } else {
-    console.log("Not a valid date")
+    drink2 = "water";
 }
+console.log(drink2)
