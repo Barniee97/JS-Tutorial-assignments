@@ -361,7 +361,7 @@ if (favourite !== 23) console.log("why not 23?");
 
 //The conditional (ternary) operator
 
-const age = 20;
+const age = 12;
 age >= 18 ? console.log("I like to drink wine") :
         console.log("I like to drink water");
 
@@ -374,4 +374,6 @@ if (age >= 18) {
 } else {
     drink2 = "water";
 }
-console.log(drink2)
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);
