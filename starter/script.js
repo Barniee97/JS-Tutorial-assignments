@@ -406,7 +406,7 @@ GOOD LUCK
 //bill = 275
 const bill = 275;
 const tip = bill <= 300 && bill >= 50 ? 0.15 * bill : 0.20 * bill;
-console.log(`The bill was ${bill}, the tip was ${tip}, and the total value
+console.log(`The bill was ${bill}, the ti p was ${tip}, and the total value
 ${tip + bill}`);
 
 //bill2 = 40
