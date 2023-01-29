@@ -174,8 +174,14 @@ console.log(`The bill was ${bill2}, the tip was ${tip2}, and the total value ${b
 
 
 //430
-const bill3 = 430;
-const tip3 = bill3 >= 50 && bill3 <= 300 ? bill3 * 0.15 : bill3 * 0.2;
+const bill4 = 430;
+const tip4 = bill4 >= 50 && bill4 <= 300 ? bill4 * 0.15 : bill4 * 0.2;
 
-console.log(`The bill was ${bill3}, the tip was ${tip3}, and the total value ${bill3 + tip3}`);
+console.log(`The bill was ${bill4}, the tip was ${tip4}, and the total value ${bill4 + tip4}`);
+
+
+//100
+const bill5 = 100;
+const tip5 = bill5 <= 100 && bill >= 100 ? bill5 * 0.15 : bill5 * 0.2;
+console.log(`The bill was ${bill5}, the tip was ${tip5}, and the total value ${bill5 + tip5}`);
 
