@@ -174,9 +174,9 @@ GOOD LUCK
 // ${bill2 + tip2}`);
 
 //430
-const bill3 = 430;
-const tip3 = bill3 <= 300 && bill3 >= 50 ? bill3 * 0.15 :
-bill3 * 0.2;
+// const bill3 = 430;
+// const tip3 = bill3 <= 300 && bill3 >= 50 ? bill3 * 0.15 :
+// bill3 * 0.2;
 
-console.log(`The bill was ${bill3}, the tip was ${tip3}, and the total value 
-${bill3 + tip3}`);
+// console.log(`The bill was ${bill3}, the tip was ${tip3}, and the total value 
+// ${bill3 + tip3}`);
