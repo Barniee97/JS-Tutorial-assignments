@@ -451,6 +451,7 @@ const barniee = [
   true,
 ];
 
+/*
 const types = [];
 
 for(let i = 0; i < barniee.length ; i++) {
@@ -458,17 +459,18 @@ for(let i = 0; i < barniee.length ; i++) {
   console.log(barniee[i], typeof barniee[i]);
 
 
-//fillling the types array
+//filling the types array
 //types[i] = typeof barniee[i];
 types.push(typeof barniee[i]);
 }
 
+
 console.log(types);
 
-
+/*
 const birthYears = [1995, 1997, 2000, 2003];
 const ages = [];
-for(let i = 0; i < birthYears.length;i++) {
+for(let i = 0; i < birthYears.length; i++) {
   ages.push(2023 - birthYears[i]);
 }
 console.log(ages); 
@@ -486,14 +488,13 @@ for(let i = 0; i < barniee.length ; i++) {
   if(typeof barniee[i] === "number") break;
   console.log(barniee[i]);
 }
-
 */
 
-/*
+
 //loop backward
 //0, 1, ..., 4
 //4, 3, ..., 0
-
+/*
 const barniee = [
   "Barniee",
   "Arah",
@@ -515,18 +516,18 @@ for(let exercise = 1; exercise <= 3; exercise++) {
     console.log(`Exercise ${exercise}: lifting weight repetition ${rep}`);
   }
 }
-*/
+
 
 //WHILE LOOP
 
 //FOR
 // for (let rep = 1; rep <= 10; rep++) {
-//   console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
+//   console.log(`Lifting weights r epetition ${rep} 🏋️‍♀️`);
 // }
-
-//WHILE
-
+*/
 /*
+//WHILE LOOP
+
 let rep = 1;
 while (rep <= 10) {
  // console.log(`WHILE: Lifting weights repetition ${rep} 🏋️‍♀️`);
