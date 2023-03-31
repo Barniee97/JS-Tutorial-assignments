@@ -300,7 +300,7 @@ added together
 length of the array (because that's the number of elements)
 4.3. Call the function with the 'totals' array
 GOOD LUCK 
-*/
+
 const calcTip = function(bill) {
     return bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.20;
 };
@@ -328,3 +328,5 @@ const calcAverage = function(arr) {
 }
 console.log(calcAverage(totals));
 console.log(calcAverage(tips));
+
+*/
