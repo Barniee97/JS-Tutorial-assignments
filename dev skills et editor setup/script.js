@@ -3,7 +3,7 @@
 //Problem:
 //We work for a company building a smart home thermometer. Our most recent task is this: "Given an array of temperatures of one day, calculate the temperature amplitude. Keep in mind that sometimes there might be some sensor error."
 
-const temperatures = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
+//const temperatures = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
 
 //1. Understanding the problem
 // - what is temperature amplitude: difference between highest and lowest temp
@@ -16,6 +16,7 @@ const temperatures = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
 //- find min value in temperature array
 //- substract min from max and return it
 
+/*
 const calcTempAmplitude = function (temps) {
     let max = temps[0];
     let min = temps[0];
@@ -36,3 +37,4 @@ const calcTempAmplitude = function (temps) {
 };
 const amplitude = calcTempAmplitude(temperatures);
 console.log(amplitude);
+*/
