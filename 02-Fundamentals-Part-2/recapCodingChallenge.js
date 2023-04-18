@@ -301,6 +301,7 @@ length of the array (because that's the number of elements)
 4.3. Call the function with the 'totals' array
 GOOD LUCK 
 
+
 const calcTip = function(bill) {
     return bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.20;
 };
@@ -312,31 +313,30 @@ const totals = [];
 for (let i = 0; i < bills.length; i++) {
     const tip = calcTip(bills[i]);
     tips.push(tip);
-    totals.push(tip + bills[i]);
 };
 
 console.log(bills, tips, totals);
-
 
 const calcAverage = function(arr) {
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
         sum += arr[i];
     }
-    //console.log(sum);
+
     return sum / arr.length;
 }
+
+console.log(calcAverage([2, 4, 6]));
 console.log(calcAverage(totals));
 console.log(calcAverage(tips));
 
 */
 
-
  
 //Problem:
 //We work for a company building a smart home thermometer. Our most recent task is this: "Given an array of temperatures of one day, calculate the temperature amplitude. Keep in mind that sometimes there might be some sensor error."
 
-const temperatures = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
+//const temperatures = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
 
 //1. Understanding the problem
 // - what is temperature amplitude: difference between highest and lowest temp
@@ -350,13 +350,13 @@ const temperatures = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
 //- substract min from max and return it
 
 
-const tempAmp = function (temps) {
+// const tempAmp = function (temps) {
 
-    for(let i = 0; i < temps.length; i++) {
+//     for(let i = 0; i < temps.length; i++) {
 
-        if (temps[i] > max) {
-            temps[i] = max;
-        };
-    }
-    console.log(tempAmp[2, 4, 6, 8,7]);
-}
+//         if (temps[i] > max) {
+//             temps[i] = max;
+//         };
+//     }
+//     console.log(tempAmp[2, 4, 6, 8,7]);
+// }
