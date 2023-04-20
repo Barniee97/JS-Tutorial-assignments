@@ -360,3 +360,35 @@ console.log(calcAverage(tips));
 //     }
 //     console.log(tempAmp[2, 4, 6, 8,7]);
 // }
+
+/*
+//Problem:
+//We work for a company building a smart home thermometer. Our most recent task is this: "Given an array of temperatures of one day, calculate the temperature amplitude. Keep in mind that sometimes there might be some sensor error."
+
+const temperatures = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
+
+
+//write a function
+// find max in array
+// find min in array
+//avoid censor error
+//return amplitude
+
+
+const tempAmplitudeCalc = function (temps) {
+    let min = temps[0];
+    let max = temps[0];
+
+    for (let i = 0; i < temps.length; i++) {
+        if(temps[i] > max) max = temps[i];
+        if(temps[i] < min) min = temps[i];
+        if(temps[i] !== "number");
+    }
+    console.log(max, min);
+    return max - min;
+}
+
+const amplitude = tempAmplitudeCalc(temperatures);
+console.log(amplitude);
+
+*/
