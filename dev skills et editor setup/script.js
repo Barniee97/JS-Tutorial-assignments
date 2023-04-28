@@ -13,7 +13,7 @@ tips and total values (bill + tip) for every bill value in the bills array. Use 
 loop to perform the 10 calculations!
 Test data: 22, 295, 176, 440, 37, 105, 10, 1100, 86 and 52
 Hints: Call ‘calcTip ‘in the loop and use the push method to add values to the 
-tips and totals arrays �
+tips and totals arrays 
 Bonus:
 4. Bonus: Write a function 'calcAverage' which takes an array called 'arr' as 
 an argument. This function calculates the average of all numbers in the given 
@@ -131,4 +131,50 @@ const calcTempAmplitudeNew = function (t1, t2) {
 const amplitudeNew = calcTempAmplitudeNew([2, 5, 8, 6], [12, 1, 17, 4]);
 console.log(amplitudeNew);
 
+*/
+/*
+const measureKelvin = function() {
+    const measurement = {
+        type: "temp",
+        unit: "celsius",
+
+        //C. FIX THE BUG
+       // value: Number(prompt("What is your temperature in Degrees celsius:")),
+        value: 10,
+    };
+   //B. FIND THE BUG
+    console.table(measurement);
+
+
+    const kelvin = measurement.value + 273;
+    return `Your temperature in kelvin is ${kelvin}`
+}
+// A. IDENTIFY
+console.log(measureKelvin());
+
+
+
+//using a debugger
+const calcTempAmplitudeBug = function (t1, t2) {
+
+    const temps = t1.concat(t2);
+    console.log(temps);
+
+    let max = temps[0];
+    let min = temps[0];
+    
+    for (let i = 0; i < temps.length; i++) {
+        const currentTemp = temps[i];
+
+        if (currentTemp > max) max = currentTemp;
+        if (currentTemp < min) min = currentTemp;
+        if (typeof currentTemp !== "number") continue;
+
+    }
+    
+    console.log(max, min);
+    return max - min;
+    };
+const amplitudeBug = calcTempAmplitudeBug([2, 5, 8, 6], [12, 1, 17, 4]);
+console.log(amplitudeBug);
 */
