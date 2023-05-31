@@ -19,6 +19,7 @@ document.querySelector(".check").addEventListener
     //player wins
     }  else if (guess === secretNumber) {
         displayMessage("🎉 Correct Number!");
+        
     //display secret number when player wins
         document.querySelector(".number").textContent = secretNumber;
     //change the background color when a player wins
